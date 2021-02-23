@@ -21,7 +21,7 @@ done
 
 TITLE=$1
 
-if [ ! $TITLE ]; then
+if [ ! "${TITLE}" ]; then
   TITLE="No Title"
 fi
 
